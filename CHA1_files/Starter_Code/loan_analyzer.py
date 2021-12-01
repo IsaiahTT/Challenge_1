@@ -13,6 +13,13 @@ First, let's start with some calculations on a list of prices for 5 loans.
     4. Print all calculations with descriptive messages.
 """
 loan_costs = [500, 600, 200, 1000, 450]
+number_of_loans = len(loan_costs)
+sum_of_loans = sum(loan_costs)
+average_loan = sum_of_loans / number_of_loans
+print("The loans are ", loan_costs)
+print("The number of loans is ", number_of_loans)
+print("The sum of these loans is ", sum_of_loans)
+print("The average cost of these loans is ", average_loan)
 
 # How many loans are in the list?
 # @TODO: Use the `len` function to calculate the total number of loans in the list.
